@@ -473,3 +473,131 @@ nav .navbar .menu{
   line-height: 1.7;
   font-size: 16px;
 }
+
+@media (max-width: 900px){
+  nav .navbar{
+    padding: 0 25px;
+  }
+
+  nav .navbar .logo{
+    font-size: 24px;
+  }
+
+  nav .navbar .menu{
+    gap: 18px;
+  }
+  
+  .navbar .menu li a{
+    font-size: 15px;
+  }
+
+  .intro h1{
+    font-size: 48px;
+  }
+
+  .about-content{
+    grid-template-columns: 1fr;
+  }
+
+  .section-title h2{
+    font-size: 34px;
+  }
+}
+@media (max-width: 600px){
+  nav .navbar{
+    height: auto;
+    min-height: 70px;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav .navbar .logo{
+    font-size: 22px;
+  }
+
+  nav .navbar .menu{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .navbar .menu li a{
+    font-size: 13px;
+  }
+
+  .intro{
+    padding: 140px 20px 60px;
+  }
+
+  .intro h1{
+    font-size: 36px;
+  }
+
+  .intro-desc{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .intro-buttons{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-primary,
+  .btn-secondary{
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .about,
+  .skills,
+  .experience,
+  .portfolio,
+  .llm{
+    padding: 70px 5%;
+  }
+
+  .section-title{
+    margin-bottom: 40px;
+  }
+
+  .section-title h2{
+    font-size: 30px;
+  }
+
+  .about-text h3{
+    font-size: 24px;
+  }
+
+  .about-card,
+  .llm-card{
+    padding: 22px;
+  }
+
+  .skill-bar{
+    height: 12px;
+  }
+
+  .exp-card{
+    padding: 22px;
+  }
+
+  .portfolio-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .project-image{
+    height: 180px;
+  }
+
+  .project-content{
+    padding: 20px;
+  }
+
+  .llm-item strong{
+    font-size: 14px;
+  }
+}
